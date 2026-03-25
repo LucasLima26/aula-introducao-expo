@@ -2,11 +2,12 @@ import { View, Text, Image } from 'react-native';
 
 import styles from './styles';
 
-function cardRevAtv({titulo, descricao, preco, img}) {
+function CardRevAtv({titulo, descricao, preco, img}) {
     return(
         <View style={styles.container}>
+            <Image source={img} style={styles.imagem} /> 
             <View>
-             <Image source={img} style={styles.imagem} /> 
+             
             <Text style={styles.titulo}>{titulo}</Text>
             <Text style={styles.descricao}>{descricao}</Text>
             <Text style={styles.preco}>{preco}</Text>
@@ -15,5 +16,5 @@ function cardRevAtv({titulo, descricao, preco, img}) {
     );
 }
 
-export default cardRevAtv;
+export default CardRevAtv;
 

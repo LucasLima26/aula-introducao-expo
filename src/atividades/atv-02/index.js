@@ -4,7 +4,7 @@ import styles from './styles';
 import Amarela from '../../../assets/brasilAmarela.png';
 import Branco from '../../../assets/brasilBranco.png';
 import Azul from '../../../assets/brasilAzul.jpg';
-import Preta from '../../../assets/brasilPreta.png';
+import Preta from '../../../assets/brasilPreta.jpg';
 
 
 import Card from './card';
