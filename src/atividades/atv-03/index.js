@@ -48,21 +48,17 @@ function Exemplo03() {
             <Text style={styles.titulo}>Exemplo 3</Text>
             <Text style={styles.texto}>Variáveis e State</Text>
 
-            <View style={styles.botaoAlert}>
-                <Button 
-                    title='-1'
-                    color={'darkslategrey'}
-                    onPress={handleDecremento}
-                />
-                <Button
-                    title='Limpar'
-                    onPress={handleLimpar}
-                    color={'darkslategrey'}
-                />
-                    
-                
-                
-            </View>
+     <View style={styles.botaoAlert}>
+
+    <TouchableOpacity style={styles.botao} onPress={handleDecremento}>
+        <Text style={styles.txtBotao}>-1</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity style={styles.botao} onPress={handleLimpar}>
+        <Text style={styles.txtBotao}>Limpar</Text>
+    </TouchableOpacity>
+
+        </View>
 
             <Text style={styles.valor}>{numero}</Text>
             <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>

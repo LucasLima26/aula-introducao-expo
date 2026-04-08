@@ -47,7 +47,13 @@ const styles = StyleSheet.create({
     txtBotao: {
         fontSize: RFPercentage(2), 
         color: '#fafafa',
+        
+        
+        
+
     }, 
+
+
 });
 
 export default styles;
