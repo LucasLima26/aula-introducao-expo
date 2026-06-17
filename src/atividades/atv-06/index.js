@@ -4,6 +4,7 @@ import { View, Text } from 'react-native';
 import Input from './input';
 import Botao from './botao';
 
+
 import styles from './styles';  
 
 export default function Atividade06() {
